@@ -1,50 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bulb</title>
-    <link  rel="stylesheet" href="./style.css" />
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>bulb</title>
+     <link rel="stylesheet" href="./style.css" />
+     <script src="./script.js"></script>
+
 </head>
+
 <body>
 
-    <div class="buldcontainer">
-    <img src="redd.png" id="bulb"  height="400px" />
-    <!-- <img src="green.png" id="bulb"  height="400px" />
-    <img src="blue.png" id="bulb"  height="400px"/>
-    <img src="yellow.png" id="bulb"  height="400px"/> -->
-    </div>
+     <div class="main-img-container">
+          <div class="buldcontainer">
+               <img src="redd.png" id="bulb" height="400px" />
+          </div>
+     </div>
 
-
-    <div class="btncontainer">
-    <button type="button" onclick="redBulb()" class="red btn">red</button>
-    <button type="button" onclick="greenBulb()" class="green btn">green</button>
-    <button type="button" onclick="blueBulb()" class="blue btn">blue</button>
-    <button type="button" onclick="yellowBulb()" class="orange btn">orange</button> 
-    </div>
-
-    <script>
-       function redBulb()
-       {
-            const bulbElement = document.getElementById('bulb');
-            bulbElement.src="redd.png"
-       } 
-       function greenBulb()
-       {
-            const bulbElement = document.getElementById('bulb');
-            bulbElement.src="greenn.png"
-       } 
-       function blueBulb()
-       {
-            const bulbElement = document.getElementById('bulb');
-            bulbElement.src="bluee.png"
-       } 
-       function yellowBulb()
-       {
-            const bulbElement = document.getElementById('bulb');
-            bulbElement.src="orangee.png"
-       } 
-    </script>
+     <div class="main-btn-container">
+          <div class="btncontainer">
+               <button type="button" onclick="redBulb()" class="red btn">red</button>
+               <button type="button" onclick="greenBulb()" class="green btn">green</button>
+               <button type="button" onclick="blueBulb()" class="blue btn">blue</button>
+               <button type="button" onclick="yellowBulb()" class="orange btn">orange</button>
+          </div>
+     </div>
 
 </body>
+
 </html>
